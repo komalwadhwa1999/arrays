@@ -24,7 +24,7 @@ int main()
   int a[n];
   for(int i=0;i<n;i++)
   scanf("%d",&a[i]);
-  int element=kthLargest(a ,size, k);
+  int element=kthLargest(a ,n , k);
   printf("Kth Largest Element = %d",element);
   return 0;
 }
